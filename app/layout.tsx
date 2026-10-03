@@ -1,0 +1,4 @@
+import type { Metadata } from 'next';
+import './globals.css';
+export const metadata:Metadata={metadataBase:new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://mhfarhoud-research.farhoud85.chatgpt.site'),alternates:{canonical:'/'},title:'Mohammad Hossein Dizaj Farhoud — AI Researcher & Software Engineer',description:'Official portfolio of Mohammad Hossein Dizaj Farhoud, an AI researcher, software engineer, cybersecurity specialist and technology educator.',icons:{icon:'/favicon.svg'},openGraph:{title:'MhFarhoud — Research · Engineering · Education',description:'Personal research and technology portfolio of Mohammad Hossein Dizaj Farhoud',type:'website'}};
+export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="fa" dir="rtl"><body>{children}</body></html>}
