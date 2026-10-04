@@ -13,7 +13,7 @@ npm run dev
 
 Edit `data/profile.ts` to update biographical content, research, projects, experience and recognition. Layout and page sections live in `app/page.tsx`; the research map is in `components/research-network.tsx`. Visual tokens and responsive styles are in `app/globals.css`.
 
-Content comes from the supplied résumé and design brief. Project names and descriptions were corrected against the public GitHub READMEs of project-cassandra, PAB-Persian-AI-Benchmark and SPSR. The Computer Graphics diploma comes from the design brief. No birth date, performance statistics, email address, LinkedIn profile or unpublished document scans were inferred. Project visuals are conceptual architecture diagrams, not performance results or screenshots.
+Content comes from the supplied résumé and design brief. Project names and descriptions were corrected against the public GitHub READMEs of project-cassandra, PAB-Persian-AI-Benchmark and SPSR. Education is displayed as an associate degree only, as requested by the portfolio owner. No birth date, performance statistics, email address, LinkedIn profile or unpublished document scans were inferred. Project visuals are conceptual architecture diagrams, not performance results or screenshots.
 
 Set `NEXT_PUBLIC_SITE_URL` to change the canonical origin when moving to a custom domain. Metadata and Person structured data are configured in the application. The primary public site is https://mhfarhoud.github.io. The earlier private Sites deployment is a separate snapshot.
 
